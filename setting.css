@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.settings-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #1e1e1e; /* Slightly lighter dark background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Softer shadow */
+}
+
+h1, h2 {
+  color: #ffffff; /* White headings for contrast */
+}
+
+.settings-section {
+  margin-bottom: 30px;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.setting-item label {
+  flex: 1;
+  font-size: 16px;
+  color: #b0b0b0; /* Muted light gray for labels */
+}
+
+.setting-item input[type="text"],
+.setting-item input[type="email"],
+.setting-item input[type="password"],
+.setting-item select {
+  flex: 2;
+  padding: 8px 12px;
+  border: 1px solid #333; /* Dark border */
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #262626; /* Dark input background */
+  color: #e0e0e0; /* Light input text */
+}
+
+.setting-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.save-btn {
+  display: inline-block;
+  background-color: #1a73e8; /* Bright blue button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background-color: #0f5bb5; /* Darker blue on hover */
+}
+
+@media (max-width: 600px) {
+  .setting-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .setting-item label {
+    margin-bottom: 5px;
+  }
+}

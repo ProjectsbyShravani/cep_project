@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- Link to Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Link to a CSS file (optional, replace with your file) -->
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .page-section {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .dashboard-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .dashboard-header h2 {
+      margin: 0;
+      color: #333;
+    }
+    .dashboard-header p {
+      margin-top: 10px;
+      color: #666;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    .stat-card {
+      flex: 1;
+      text-align: center;
+      background: #f0f0f0;
+      padding: 15px;
+      margin: 0 10px;
+      border-radius: 8px;
+    }
+    .stat-card h3 {
+      margin: 10px 0;
+    }
+    .recent-activities ul {
+      list-style: none;
+      padding: 0;
+    }
+    .recent-activities li {
+      margin: 10px 0;
+    }
+    .analytics {
+      margin-top: 30px;
+    }
+    .graph-placeholder {
+      text-align: center;
+      padding: 40px;
+      background: #f0f0f0;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+<section id="dashboard" class="page-section">
+  <div class="dashboard-container">
+    <!-- Dashboard Header -->
+    <div class="dashboard-header">
+      <h2>Dashboard</h2>
+      <p>Welcome back, User! Here's a quick overview of your stats.</p>
+    </div>
+
+    <!-- Dashboard Stats -->
+    <div class="stats">
+      <div class="stat-card">
+        <i class="fas fa-briefcase"></i>
+        <h3>150</h3>
+        <p>Total Jobs Applied</p>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>87%</h3>
+        <p>Profile Completion</p>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-envelope"></i>
+        <h3>12</h3>
+        <p>Pending Messages</p>
+      </div>
+      <div class="stat-card">
+        <i class="fas fa-check-circle"></i>
+        <h3>45</h3>
+        <p>Interviews Scheduled</p>
+      </div>
+    </div>
+
+    <!-- Recent Activities -->
+    <div class="recent-activities">
+      <h3>Recent Activities</h3>
+      <ul>
+        <li><i class="fas fa-clipboard-check"></i> You applied for <strong>UX Designer</strong> at FireFox.</li>
+        <li><i class="fas fa-clipboard-check"></i> Profile updated with <strong>JavaScript Developer</strong> skills.</li>
+        <li><i class="fas fa-clipboard-check"></i> Scheduled an interview with <strong>Google</strong>.</li>
+        <li><i class="fas fa-clipboard-check"></i> Completed <strong>React.js</strong> certification.</li>
+      </ul>
+    </div>
+
+    <!-- Analytics Graph Placeholder -->
+    <div class="analytics">
+      <h3>Performance Overview</h3>
+      <div class="graph-placeholder">
+        <p>Graph will go here (e.g., job applications trend, interview outcomes, etc.)</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

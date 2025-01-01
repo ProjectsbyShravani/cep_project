@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: 'Verdana', Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e; /* Dark navbar */
+  padding: 15px;
+}
+
+.navbar .logo img {
+  width: 50px;
+  height: auto;
+}
+
+.navbar .logo h1 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #bbb; /* Light gray text */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a .nav-item {
+  margin-left: 8px;
+}
+
+.navbar ul li a.active {
+  background-color: #f39c12;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Help Section Styling */
+.help-section {
+  padding: 20px;
+  background-color: #1c1c1c; /* Dark background for the section */
+}
+
+.help-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.help-top h1 {
+  font-size: 2.5rem;
+  color: #fff; /* Light text */
+}
+
+.help-top p {
+  color: #bbb; /* Lighter gray text */
+  font-size: 1rem;
+}
+
+.faq {
+  margin-bottom: 30px;
+}
+
+.faq h2 {
+  font-size: 1.8rem;
+  color: #fff; /* Light text */
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  color: #f39c12; /* Accent color for question headings */
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #ccc; /* Light gray text */
+}
+
+.contact-support {
+  background-color: #2a2a2a; /* Darker background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-support h2 {
+  font-size: 1.8rem;
+  color: #fff; /* Light text */
+}
+
+.contact-support p {
+  font-size: 1rem;
+  color: #bbb; /* Light gray text */
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #444; /* Dark border */
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  font-size: 1rem;
+}
+
+button.submit-btn {
+  background-color: #f39c12;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button.submit-btn:hover {
+  background-color: #e67e22;
+}
+
+/* Additional Styling for Dark Mode */
+a {
+  color: #f39c12;
+}
+
+a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+input, select {
+  background-color: #333; /* Dark input background */
+  color: #fff; /* White text */
+  border: 1px solid #444; /* Dark border */
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  border-color: #f39c12; /* Highlight color */
+  outline: none;
+}

@@ -1,0 +1,133 @@
+/* Reset and Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1b1b1b; /* Very dark background */
+  color: #dcdcdc; /* Soft white text for better readability */
+}
+
+/* Page Section */
+.page-section {
+  padding: 20px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #2a2a2a; /* Dark grey background for the container */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Dashboard Header */
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffcc00; /* Vibrant accent for header */
+}
+
+.dashboard-header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #b0b0b0; /* Subtle grey for the description */
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  flex: 1;
+  text-align: center;
+  background: #3a3a3a; /* Darker grey for stat cards */
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #444; /* Subtle border for separation */
+}
+
+.stat-card:hover {
+  background-color: #444; /* Slightly lighter hover effect */
+  transform: translateY(-5px); /* Lift effect */
+}
+
+.stat-card i {
+  font-size: 2rem;
+  color: #ffcc00; /* Accent color for icons */
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #f0f0f0;
+}
+
+.stat-card p {
+  font-size: 1rem;
+  color: #b0b0b0; /* Muted text for descriptions */
+}
+
+/* Recent Activities Section */
+.recent-activities h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #ff9900; /* Slightly different accent for variety */
+}
+
+.recent-activities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activities li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background: #3a3a3a; /* Same as stat card background for consistency */
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #444;
+}
+
+.recent-activities li:hover {
+  background: #444;
+}
+
+.recent-activities li i {
+  font-size: 1.2rem;
+  color: #ffcc00; /* Accent for icons */
+  margin-right: 10px;
+}
+
+/* Analytics Section */
+.analytics h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #ff9900;
+}
+
+.graph-placeholder {
+  text-align: center;
+  padding: 50px;
+  background: #3a3a3a; /* Placeholder matches card background */
+  border-radius: 10px;
+  color: #b0b0b0;
+  border: 1px dashed #555; /* Dashed border for placeholder */
+  font-size: 1rem;
+}
+
+/* Utility Styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
